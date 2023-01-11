@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 10%;
+    align-items: center;
+    background-color: #24252a;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #24252a;
+}
+
+.logo {
+    cursor: pointer;
+    color:#edf0f1;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    color: #edf0f1;
+}
+
+.text1 h1 {
+    font-size: 48px;
+}
+
+.text1 p {
+    font-size: 18px;
+}
+
+.rtd {
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.big_picture img {
+    width: 500px;
+    border-radius: 30px;
+    margin-left: 150px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+}
+
+.content h1 {
+    font-size: 36px;
+    padding: 20px;
+}
+
+.image_gallery {
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.card {
+    max-width: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.gallery_items {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.gallery_items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery_items:hover {
+    border: 2px solid #0088a9;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+    background-color: #e5e7eb;
+}
+
+.quote b {
+    font-size: 36px;
+    text-align: right;
+}
+
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    padding: 30px 0;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.signupbox {
+    display: flex;
+    background-color: #24252a;
+    justify-content: space-between;
+    margin: 30px 30px;
+    padding: 30px;
+    color: white;
+    border-radius: 30px;
+}
+
+.signupbox button {
+    margin-left: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #fff;
+    padding: 10px 0;
+}
