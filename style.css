@@ -28,6 +28,8 @@ main {
     background-color: #24252a;
 }
 
+/* Header */
+
 .logo {
     cursor: pointer;
     color:#edf0f1;
@@ -65,6 +67,8 @@ button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
+/* Hero */
+
 .hero {
     display: flex;
     justify-content: center;
@@ -95,6 +99,8 @@ button:hover {
     border-radius: 30px;
     margin-left: 150px;
 }
+
+/* Content */
 
 .content {
     display: flex;
@@ -138,6 +144,8 @@ button:hover {
     border: 2px solid #0088a9;
 }
 
+/* Quote */
+
 .quote {
     display: flex;
     flex-direction: column;
@@ -156,6 +164,8 @@ button:hover {
     font-style: italic;
     padding: 30px 0;
 }
+
+/* Sign Up */
 
 .signup {
     display: flex;
@@ -176,6 +186,8 @@ button:hover {
 .signupbox button {
     margin-left: 100px;
 }
+
+/* Footer */
 
 footer {
     display: flex;
